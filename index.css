@@ -37,8 +37,7 @@ header{
         top: 20px;
         left: 0;
     }
-
-    }
+ }
 
 & h1{
     color: #ffffff;
@@ -85,7 +84,7 @@ header{
 header{
         justify-content: flex-start;
         align-items: center;
-        gap:16px;
+        gap: 16px;
         
         & .menu-icon{
             display: block;
@@ -102,6 +101,10 @@ header{
             transition-duration: 200ms;
             flex-direction: column;
             padding: 16px;
+
+            &.active{
+                left: 0;
+            }
 
             & a{
                 color: #777777;
